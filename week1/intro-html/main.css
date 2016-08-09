@@ -1,0 +1,49 @@
+/* Selecting by element / tag */
+body {
+    background-color : burlywood;
+}
+/* Class Selector */
+.archieBunker {
+    font-family: sans-serif;
+}
+/* ID selector */
+#super-div{}
+/*Selecting by ID is very narrowly focused, only one element can have the id*/
+.box-structure {
+    padding:40px;
+    /* Physical nature of the box */
+    width:100px;
+    margin:auto;
+}
+
+.box-info{
+    background-color:aliceblue;
+}
+.box-warning{
+    background-color:red;
+    font-size:24px;
+}
+
+/* Multi-class selector - select elements that have BOTH the class something and the class else */
+.something.else {
+    color : blue;
+}
+
+/* Descendent Selector */
+.something .else{
+    /* Select all elements with the class of else that are nested inside of elements with the class of something */
+}
+
+/* Child Selector */
+.parent > .child{
+    /* Select .child elements inside of .parent elements, but only one level deep - direct child elements */
+}
+
+/* Terrible selector */
+nav#navbar > ul.nav-list a:hover > span.nav-list-link {
+    
+}
+/* Better */
+#navbar nav-list-link {
+    
+}

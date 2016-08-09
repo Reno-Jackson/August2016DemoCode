@@ -1,0 +1,50 @@
+.text-center {
+    text-align : center;
+}
+
+.underpants-gnome{
+    height:150px;
+    width:150px;
+    background-color: chartreuse;
+    margin: 0px auto;
+}
+
+/* Vertical Centering using line-height / vertical-align */
+
+.troll-toll {
+    height : 200px;
+    background-color : peru;
+    text-align:center;
+}
+.day-man{
+    line-height:200px;
+    vertical-align: middle;
+}
+
+/*=============================*/
+
+/*-----------------------------*/
+
+/*=============================*/
+
+
+/*CSS transform centering*/
+.night-man{
+    height : 300px;
+    background-color : cadetblue;
+    position:relative;
+}
+
+.thundergun-express{
+    position:absolute;
+    height:50px;
+    background-color : orangered;
+    top : 50%; /* 50% refers to the height of the PARENT */
+    left : 50%; /* 50% refers to the width of the PARENT */
+    /*transform : translateY(-50%); *//* 50% refers to the hight of ITSELF */ 
+    transform : translate(-50%, -50%);
+
+}
+
+
+

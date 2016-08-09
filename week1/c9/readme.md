@@ -38,3 +38,6 @@ You can press TAB to autocomplete your commands!
 When ever you see `(master)` on the commanline, you are in a git repo.
 
 - `git status` show the current status of the repository you are in
+- `git add` stages files to be commited
+- `git commit -m "YOUR MESSAGE"` make a commit with a message
+- `git push origin master` push your code up to github

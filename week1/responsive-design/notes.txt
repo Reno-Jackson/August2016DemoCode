@@ -38,3 +38,14 @@ CSS
         - in / cm  - might be interpreted in a janky way by most devices - work well for print css
         
 
+Specificity
+    
+          Ids       Classes      Tags       Total
+div h1     0           0           2         002
+
+.col-6-12  0           1           0         010
+
+#navbar    1           0           0         100
+#navbar li 1           0           1         101
+
+!important - please dont use unless necessary :(

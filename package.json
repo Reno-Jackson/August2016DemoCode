@@ -1,0 +1,26 @@
+{
+  "name": "august-2016-demo-code",
+  "version": "1.0.0",
+  "description": "> All of the lecture notes and demo code for the August 2016 cohort!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RefactorU/August2016DemoCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RefactorU/August2016DemoCode/issues"
+  },
+  "homepage": "https://github.com/RefactorU/August2016DemoCode#readme",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  }
+}

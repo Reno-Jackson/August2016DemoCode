@@ -1,0 +1,64 @@
+<html>
+
+    <script>
+        // window.addEventListener('click', function(event){ // callback function
+        var button = document.querySelector('button');
+
+        button.addEventListener('click', function(event){
+            alert('Hello!');
+        });
+
+        /*
+
+            JS DOM Manipultation!
+
+            Today we are going to learn how to:
+
+            - select DOM elements/nodes
+            - see/modify DOM node attributes
+            - attach listeners
+
+        */
+
+        // window (global) this biggest (god object)
+
+        // things like alert, prompt, (document)... all live in the window
+
+        // document (global) : a very important fundamental piece of frontend JS
+
+        document.title; // this would change the text that appears in a browser tab (or application title bar)
+
+        document.body;
+        document.head;
+
+        // document selectors
+        document.getElementById('myId'); // select an element by its ID
+        document.getElementByClassName('hide') // select all elements with a class of jfk-bubble;
+        document.getElementsByTagName('div'); // select all of the divs
+
+        document.querySelector('p') // first p tag on the page
+        document.querySelectorAll('p') // all p tags on the page
+
+        // when we call/invoke one of the selector functions, they will return a list of matching DOM nodes
+
+
+        var button = document.querySelector('button');
+    </script>
+    <style>
+        .hide {
+            opacity: 0;
+        }
+        .funky-button {
+            opacity: 1;
+            color: white;
+            transform: rotate(90deg);
+            transition: all 1s linear;
+            background-color: black;
+        }
+    </style>
+    <!-- <img src="http://img10.deviantart.net/0947/i/2012/274/0/2/panda_sneeze__by_sequana-d5gjs6d.jpg"/> -->
+    <div>
+        <button class="hide">Click me!</button>
+        <p id="myId">This is the element with an ID of #myId!</p>
+    </div>
+</html>
